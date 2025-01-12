@@ -1,0 +1,3 @@
+# Elixir List Modification During Enum.each
+
+This example demonstrates an unexpected behavior when attempting to modify a list while iterating over it using `Enum.each`.  In many languages, directly modifying a list during iteration can lead to unexpected results, and Elixir is no exception.  The provided code attempts to remove the element '3' from the list, but this will not work in the expected way.
